@@ -18,18 +18,19 @@ body {
 
 /* header styling */
 header{
-    padding: 20px  40px;
+    padding: 10px 10px 10px 0px;
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#borderheader{
+header div{
     border: 1px none var(--tertiary-color);
-    padding: 25px 10px 5px 20px;
+    padding: 10px 10px 5px 20px;
     display: block;
     background-color: var(--tertiary-color);
     text-shadow: 0 0 30px rgba( 0, 0, 0, .3);
+    text-align: right;
 }
 
 header h1 {
@@ -50,14 +51,20 @@ header nav{
 }
 
 header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 17px;
+    padding: 15px;
     font-weight: lighter;
     font-size: 1.62vw;
+    border-bottom: solid;
+    border-spacing: 10px;
+  
 }
 
 /*  header styling ends */
