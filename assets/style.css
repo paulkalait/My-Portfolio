@@ -63,8 +63,7 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.62vw;
     border-bottom: solid;
-    border-spacing: 10px;
-  
+    padding-bottom: 8px ;
 }
 
 /*  header styling ends */
@@ -87,4 +86,17 @@ header nav ul li a {
     position: relative;
     top: 75px;
     right: 30px;
+}
+
+.bio-column{
+    display: flex;
+    justify-content: end;
+    padding: 30px 60px 0 20px;
+    font-size: 1.4vw;
+}
+.bio-column img{
+    width: 25%;
+    padding: 20px ;
+    border-right: solid 4px;
+    
 }
