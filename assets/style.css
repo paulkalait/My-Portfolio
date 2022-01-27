@@ -12,6 +12,7 @@
 body {
     color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--tertiary-color);
 }
 
 
@@ -24,8 +25,8 @@ header{
     flex-wrap: wrap;
 }
 #borderheader{
-    border: 1px solid var(--tertiary-color);
-    padding: 5px 10px 5px 50px;
+    border: 1px none var(--tertiary-color);
+    padding: 25px 10px 5px 20px;
     display: block;
     background-color: var(--tertiary-color);
     text-shadow: 0 0 30px rgba( 0, 0, 0, .3);
@@ -60,3 +61,23 @@ header nav ul li a {
 }
 
 /*  header styling ends */
+
+.subheader{
+    padding: 40px 50px 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../assets/Images/space1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: end;   
+}
+
+.subheader div{
+    padding: 10px 12px;
+    border: 1px none var(--primary-color);
+    display: block;
+    background-color: var(--tertiary-color);
+    position: relative;
+    top: 75px;
+    right: 30px;
+}
