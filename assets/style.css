@@ -101,44 +101,57 @@ header nav ul li a {
 
 main{
     display: flex; 
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 aside{
-    flex: 1, 1, 0%;
+    flex: 1;
     justify-content: space-between;
-    font-size: 1.6vw;
+    font-size: 2.0vw;
 }
 
 aside h2{
-    padding: 10%, 20%, 0, 10%;
-    margin-bottom: 15%;
-    margin-left: 8%;
-}
+margin-top: 50%;
+margin-bottom: 20%;
+margin-left: 25%;
+} 
+
 /*  parent element*/ 
 
 aside img{
-    width: 25%;
-    padding: 20px ;
+    width: 60%;
+    padding: 20px;
     border-right: solid 4px;
     padding-right: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .work {
-    flex: 4, 1, 0%;
+    flex: 4;
     background-color: var(--secondary-color);
-    padding: 10%;
+    padding: 1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    
 }
 
-footer {
-    padding: 3%;
-    text-align: center;
-    background-color: var(--primary-color);
+.bio{
+    padding: 10px;
+    margin-bottom: 100px;
+    font-size: 1.0vw;
+    display: block;
+    padding: 10px;
 }
+
+.bio h2{
+    font-size: 2.00vw;
+    margin-bottom: 10px;
+    
+}
+
+
 .projects {
     border: solid 1px;
     border-radius: 5px;
@@ -152,4 +165,18 @@ footer {
     text-align: center;
 }
 
+footer {
+    padding: 3%;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
 /* right side border for left column */
+
+
+#border5{
+    border-right: 3px solid;
+    margin-right: 30%;
+    padding: 35px;
+    
+}
