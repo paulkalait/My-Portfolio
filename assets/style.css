@@ -78,6 +78,7 @@ header nav ul li a {
 
 /*  header styling ends */
 
+
 .subheader{
     padding: 40px 50px 100px 0;
     display: flex;
@@ -98,20 +99,57 @@ header nav ul li a {
     right: 30px;
 }
 
-.bio-column{
-    display: flex;
-    justify-content: end;
-    padding: 30px 60px 0 30px;
-    font-size: 1.4vw;
+main{
+    display: flex; 
+    flex-wrap: wrap;
 }
-/*  parent element*/
-.bio-column article {
-    margin-left: 5%;
+
+aside{
+    flex: 1, 1, 0%;
+    justify-content: space-between;
+    font-size: 1.6vw;
 }
-.bio-column img{
+
+aside h2{
+    padding: 10%, 20%, 0, 10%;
+    margin-bottom: 15%;
+    margin-left: 8%;
+}
+/*  parent element*/ 
+
+aside img{
     width: 25%;
     padding: 20px ;
     border-right: solid 4px;
     padding-right: 20px;
-    
 }
+
+.work {
+    flex: 4, 1, 0%;
+    background-color: var(--secondary-color);
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer {
+    padding: 3%;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+.projects {
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.projects h3{
+    padding: 20px;
+    text-align: center;
+}
+.projects h4{
+    text-align: center;
+}
+
+/* right side border for left column */
