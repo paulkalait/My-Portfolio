@@ -107,8 +107,8 @@ header nav ul li a:hover{
 }
 
 #about-me img{
-    padding: 1%;
-   margin-left: 12%;
+    padding: 2%;
+   margin-left: 0%;
    border-right: solid 3px ;
 }
 
@@ -121,24 +121,22 @@ header nav ul li a:hover{
 }
 
 .section {
-    /* left: 33%; */
-    /* width: 67%; */
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
-    justify-content: space-between;
-    /* justify-content: center;
-    align-items: center; */
+    /* justify-content: space-between; */
     background-color: var(--tertiary-color);
 }
 .section > h1 {
     flex: 0 0 20%;
-    margin: 0;
-    padding: 0;
-    border-right: 3px solid green;
+    font-size: 3.00vh;
+    text-align: end;
+    margin-left: -8px;
+    padding: 7px;
+    border-right: 3px solid var(--primary-color);
     line-height: 1.1;
     justify-content: center;
     align-content: center;
@@ -175,8 +173,10 @@ header nav ul li a:hover{
 }
 .projects:nth-child(2){
     min-width: 250px;
+    flex-basis: 50%;
     border: 3px solid magenta;
 }
+
 .project-name{
     position: absolute;
     height: 20%;
@@ -212,10 +212,11 @@ header nav ul li a:hover{
     align-items: center;
     height: 100%;
 }
-.contact .contactinfo a{
-    padding: 5px;
+.contactinfo a{
+    padding: 10px;
     text-decoration: none;
-    font: 1rem;
+    font-size: 2.5vh;
+    color: var(--primary-color);
     background-repeat: no-repeat;
     background-size: 100% .2em;
     background-position: bottom;
@@ -223,9 +224,12 @@ header nav ul li a:hover{
     display: inline-block;
 }
 
-.contact .contactinfo a:hover{
+ .contactinfo a:hover{
     background-size: 100% 88%;
-    color: mediumaquamarine;
+    border: 1px solid;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--tertiary-color);
 }
 /* Footer styling starts */
 /* 
