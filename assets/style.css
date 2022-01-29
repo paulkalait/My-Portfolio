@@ -59,26 +59,15 @@ header nav ul {
 }
 
 header nav ul li a {
+    margin-top: 10px;
     padding: 15px;
     font-weight: lighter;
     font-size: 1.62vw;
     
 }
-#border1{
-    border-bottom: 3px solid grey;
+header nav ul li a:hover{
+    border-bottom: 3px solid var(--tertiary-color);
 }
-#border2{
-    border-bottom: 3px solid grey;
-    margin-left: 10px;
-}
-#border3{
-    border-bottom: 3px solid grey;
-    margin-left: 10px;
-}
-
-/*  header styling ends */
-
-
 .subheader{
     padding: 40px 50px 100px 0;
     display: flex;
@@ -123,10 +112,17 @@ header nav ul li a {
    border-right: solid 3px ;
 }
 
-section div{ 
-    position: relative;
-    left: 21%;
+/* left side column styling */
 
+.side{ 
+    /* float: left; */
+    background-color: blue;
+    /* left: 20%; */
+    /* margin-top: 20%; */
+    /* margin-left: 23%; */
+}
+.side h1{
+    font-size: 3.5vh;
 }
 
 .work {
@@ -141,11 +137,20 @@ section div{
 }
 
 .projects {
-    border: solid 1px;
+    border: solid 4px;
     display: block;
     margin: 10px;
     background-color: var(--secondary-color);
 }
+
+.projects img{
+   opacity: .5;
+}
+
+.projects img:hover{
+    opacity: 1 ;
+}
+
 .projects h3{
     padding: 15px;
     text-align: center;
@@ -173,6 +178,28 @@ footer h1{
 
 }
 
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+footer a{
+    font-size: 2.5vh;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* pseudo styling */
+footer a:hover{
+    border: 1px solid;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--tertiary-color);
+}
+/* pseudo styling ends */
 
 
 /* right side border for left column */
