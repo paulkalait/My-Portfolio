@@ -123,7 +123,9 @@ header nav ul li a {
    border-right: solid 3px ;
 }
 
-aside{
+section div{ 
+    position: relative;
+    left: 21%;
 
 }
 
@@ -167,7 +169,7 @@ footer h1{
     padding-left: 15%;
     border-right: 3px solid;
     padding-right: 10%;
-    margin-right: 73%;
+    margin-right: 75%;
 
 }
 
