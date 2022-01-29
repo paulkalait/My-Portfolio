@@ -108,54 +108,70 @@ header nav ul li a {
   
 }
 
+#about-me h2{
+    padding-bottom: 2%;
+    font-size: 2.00vw;
+}
+#about-me article{
+    padding-left: 3%;
+}
+
 #about-me img{
     padding: 1%;
-   
+   margin-left: 12%;
+  
+   border-right: solid 3px ;
 }
 
 aside{
-    position: absolute;
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: blue;
+
 }
 
 .work {
-    position: absolute;
-    right: 0;
-    width: 70%;
+    position: relative;
+    left: 33%;
+    width: 67%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
+    background-color: var(--tertiary-color);
 }
-
-
 
 .projects {
     border: solid 1px;
-    border-radius: 5px;
     display: block;
     margin: 10px;
+    background-color: var(--secondary-color);
 }
 .projects h3{
-    padding: 20px;
+    padding: 15px;
     text-align: center;
+    font-size: 2.5vh;
 }
 .projects h4{
     text-align: center;
+    padding-bottom: 5%;
+    font-size: 1.7vh;
 }
 
 footer {
-
     padding: 3%;
     text-align: center;
-    background-color: var(--primary-color);
+    background-color: var(--tertiary-color);
 }
+footer h1{
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 2.00vw;
+    padding-left: 15%;
+    border-right: 3px solid;
+    padding-right: 10%;
+    margin-right: 73%;
+
+}
+
+
 
 /* right side border for left column */
 
