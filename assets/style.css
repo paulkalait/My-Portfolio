@@ -154,6 +154,7 @@ aside img{
 .projects {
     border: solid 1px;
     border-radius: 5px;
+    display: block;
     margin: 10px;
 }
 .projects h3{
