@@ -145,7 +145,8 @@ header nav ul li a:hover{
 .projects-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
+    padding-bottom: 50px;
 }
 
 .projects{
@@ -153,67 +154,78 @@ header nav ul li a:hover{
     border: solid 4px;
     display: block;
     margin: .5em;
-    background: var(--secondary-color);
-    background-size: 150%;
-    align-items: flex-end;
+    background-size: 100%;
+    align-items: space-evenly;
     padding: 0 0 20px 0;
     transition: all .5s;
     font-size: 1em;
     border: 4px solid var(--primary-color);
+  
 }
-.projects img{
-    min-height: 250px;
-    max-height: 250px;
-    object-fit: cover;
 
+
+#runbuddy{
+    background-image: url(../assets/Images/runbuddysc.png);
+    opacity: .5;
+}
+#runbuddy:hover{
+    background-image: url(../assets/Images/runbuddysc.png);
+    opacity: 1;
+}
+#coderefactor{
+    background-image: url(../assets/Images/code-refactoring-project.png);
+    opacity: .5;
+}
+#coderefactor:hover{
+    background-image: url(../assets/Images/code-refactoring-project.png);
+    opacity: 1;
+}
+#placeholder{
+    background-image: url(https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png);
+    opacity: .5;
+}
+#placeholder:hover{
+    background-image: url(https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png);
+    opacity: 1;
 }
 .projects:first-child{
-    /* min-height: 400px ; */
+    min-height: 400px ;
     flex-basis: 100%;
 }
-.projects img:first-child{
-    width: 100%;
-    height: 100%;
-}
+
 .projects:nth-child(2){
-    min-width: 250px;
+    min-width: 300px;
+    min-height: 45%;
     flex-basis: 50%;
     border: 3px solid var(--primary-color);
 }
+
+.projects:nth-child(3,4){
+    min-width:300px;
+    min-height:45%;
+    flex-basis:50%;
+    border: 3px solid var(--primary-color);
+}
+
 
 .project-name{
     color: var(--tertiary-color);
     padding: 1px;
     margin-left: 2%;
-    text-align: center;
-    font-size: 1.5vh;
-    /* position: absolute; */
-    /* height: 10%; */
-}
-.projects img{
-   opacity: .5;
+    text-align:left;
+    font-size: 2.00vh;
 }
 
-.projects img:hover{
-    opacity: 1 ;
-}
 
-.projects h3{
-    padding: 15px;
-    text-align: center;
-    font-size: 2.5vh;
-}
-.projects h4{
-    text-align: center;
-    padding-bottom: 5%;
-    font-size: 1.7vh;
-}
 .contact .contactinfo{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 100%;
+}
+#contact-me{
+    margin-top: 10%;
 }
 .contactinfo a{
     padding: 10px;
@@ -235,7 +247,82 @@ header nav ul li a:hover{
     color: var(--tertiary-color);
 }
 
+@media screen and (max-width: 980px) {
+header{
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+}
+header h1{
+    width: 100%;
+    text-align: center;
+}
+header nav ul{
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+}
+header nav ul li a{
+    font-size: 3.10vh;
+    padding-bottom: 10px;
+}
+.subheader{
+    width: 100%;
+}
+.subheader div h2{
+    padding-left: 20px;
+    width: 100%;
+}
+#about-me p{
+    float: none;
+}
 
+    
+@media screen and (max-width: 768px) {
+#about-me{
+    flex-direction: column;
+    align-items: baseline;
+}
+#about-me img{
+    border:none;
+    padding-top: 5%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#about-me h2{
+    margin: 5%;
+    text-align: center;
+    font-size: 3.00vh;
+    
+}
+.section{
+    padding: 15px  5px;
+}
+.section h1{
+    flex: 1 100%;
+    text-align: center;
+    border-bottom: 3px solid;
+    border-right: none;
+    font-size: 45px
+}
+.section a{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
 
+#runbuddy{
+    min-height: 40%;
+}
+#placeholder{
+    min-height: 30%;
+    min-width: 95%;
+}
 
-
+#contact-me{
+    margin-top: 37%;
+    margin-left: 8%;
+}
+}
