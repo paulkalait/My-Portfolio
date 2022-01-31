@@ -128,7 +128,6 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: stretch;
-    /* justify-content: space-between; */
     background-color: var(--tertiary-color);
 }
 .section > h1 {
@@ -160,9 +159,24 @@ header nav ul li a:hover{
     transition: all .5s;
     font-size: 1em;
     border: 4px solid var(--primary-color);
-  
+    
 }
-
+/* ask about this  */
+.project-name{
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-left: 2%;
+    align-items: center;
+    font-size: 2.00vh;
+    border: 3px solid var(--primary-color);
+    background-color: var(--tertiary-color);
+    padding: 10px 10px;
+    display: inline;
+}
+.projects a{
+    text-decoration: none;
+}
+/* in office hours */
 
 #runbuddy{
     background-image: url(../assets/Images/runbuddysc.png);
@@ -189,7 +203,7 @@ header nav ul li a:hover{
     opacity: 1;
 }
 .projects:first-child{
-    min-height: 400px ;
+    min-height: 300px;
     flex-basis: 100%;
 }
 
@@ -206,16 +220,6 @@ header nav ul li a:hover{
     flex-basis:50%;
     border: 3px solid var(--primary-color);
 }
-
-
-.project-name{
-    color: var(--tertiary-color);
-    padding: 1px;
-    margin-left: 2%;
-    text-align:left;
-    font-size: 2.00vh;
-}
-
 
 .contact .contactinfo{
     display: flex;
@@ -276,6 +280,7 @@ header nav ul li a{
 #about-me p{
     float: none;
 }
+}
 
     
 @media screen and (max-width: 768px) {
@@ -322,7 +327,7 @@ header nav ul li a{
 }
 
 #contact-me{
-    margin-top: 37%;
+    margin-top: 39%;
     margin-left: 8%;
 }
 }
