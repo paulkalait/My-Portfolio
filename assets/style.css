@@ -173,17 +173,17 @@ header nav ul li a:hover{
     padding: 10px 10px;
     display: inline;
 }
-.projects a{
+.projects{
     text-decoration: none;
 }
 /* in office hours */
 
-#runbuddy{
-    background-image: url(../assets/Images/runbuddysc.png);
+#project-one{
+    background-image: url(https://github.com/paulkalait/film-adviser/blob/feature/index2/assets/images/Home3.png?raw=true);
     opacity: .5;
 }
-#runbuddy:hover{
-    background-image: url(../assets/Images/runbuddysc.png);
+#project-one:hover{
+    background-image: url(https://github.com/paulkalait/film-adviser/blob/feature/index2/assets/images/Home3.png?raw=true);
     opacity: 1;
 }
 #coderefactor{
