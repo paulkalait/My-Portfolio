@@ -34,20 +34,24 @@ header div{
 }
 
 header h1 {
+    font-family: 'Bebas Neue', cursive;
     font-size: bold;
-    font-size: 48px;
+    font-size: 60px;
     color: var(--primary-color);
-    margin: 20;
-    
+   
 }
 
 header a {
+   
+    font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     color: var(--tertiary-color)
 }
 
 header nav{
     margin: 10 0;
+    margin-right: 3%;
+    margin-top: 1%;
 }
 
 header nav ul {
@@ -62,16 +66,19 @@ header nav ul li a {
     margin-top: 10px;
     padding: 15px;
     font-weight: lighter;
-    font-size: 1.62vw;
+    font-size: 1.90vw;
     
 }
 header nav ul li a:hover{
+
     border-bottom: 3px solid var(--tertiary-color);
 }
 
 /* Header styling ends */
 
 .subheader{
+    border-top: 3px solid var(--secondary-color);
+    border-bottom: 3px solid var(--secondary-color);
     padding: 40px 50px 100px 0;
     display: flex;
     flex-wrap: wrap;
@@ -82,6 +89,7 @@ header nav ul li a:hover{
 }
 
 .subheader div{
+    font-family: 'Bebas Neue', cursive;
     padding: 15px 12px;
     border: 1px none var(--primary-color);
     display: block;
@@ -89,7 +97,7 @@ header nav ul li a:hover{
     position: relative;
     top: 75px;
     right: 30px;
-    font-size: 2.0vh;
+    font-size: 2.6vh;
 }
 /* About me Section */
 
@@ -98,8 +106,13 @@ header nav ul li a:hover{
     align-items: center;
   
 }
+#about-me p{
+    font-size: 2.05vh;
+}
+
 
 #about-me h2{
+    font-family: 'Bebas Neue', cursive;
     padding-bottom: 2%;
     font-size: 2.00vw;
 }
@@ -131,6 +144,7 @@ header nav ul li a:hover{
     background-color: var(--tertiary-color);
 }
 .section > h1 {
+    font-family: 'Bebas Neue', cursive;
     flex: 0 0 20%;
     font-size: 3.00vh;
     text-align: end;
@@ -149,7 +163,8 @@ header nav ul li a:hover{
 }
 
 .projects{
-    flex-basis: calc(50% -1em);
+    /* flex-basis: calc(50% -1em); */
+    font-family: 'Bebas Neue', cursive;
     border: solid 4px;
     display: block;
     margin: .5em;
@@ -173,10 +188,7 @@ header nav ul li a:hover{
     padding: 10px 10px;
     display: inline;
 }
-.projects{
-    text-decoration: none;
-}
-/* in office hours */
+
 
 #project-one{
     background-image: url(https://github.com/paulkalait/film-adviser/blob/feature/index2/assets/images/Home3.png?raw=true);
@@ -203,21 +215,29 @@ header nav ul li a:hover{
     opacity: 1;
 }
 .projects:first-child{
-    min-height: 300px;
+    
+    min-height: 350px;
     flex-basis: 100%;
 }
 
 .projects:nth-child(2){
-    min-width: 300px;
-    min-height: 45%;
+    
+    min-height: 50%;
+    flex-basis: 100%;
+    border: 3px solid var(--primary-color);
+}
+
+.projects:nth-child(3){
+   
+    min-height: 60%;
     flex-basis: 50%;
     border: 3px solid var(--primary-color);
 }
 
-.projects:nth-child(3,4,5){
-    min-width:300px;
-    min-height: 45%;
-    flex-basis:50%;
+.projects:nth-child(4){
+   
+    min-height: 60%;
+    flex-basis: 50%;
     border: 3px solid var(--primary-color);
 }
 
