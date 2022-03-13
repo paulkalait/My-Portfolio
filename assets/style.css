@@ -139,16 +139,19 @@ header nav ul li a:hover{
     padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
+    
     flex-direction: row;
     align-items: stretch;
     background-color: var(--tertiary-color);
 }
 .section > h1 {
+    
     font-family: 'Bebas Neue', cursive;
     flex: 0 0 20%;
     font-size: 3.00vh;
     text-align: end;
     margin-left: -8px;
+    min-width: 30.5%;
     padding: 7px;
     border-right: 3px solid var(--primary-color);
     line-height: 1.1;
@@ -250,7 +253,7 @@ header nav ul li a:hover{
     height: 100%;
 }
 #contact-me{
-    margin-top: 10%;
+    margin-top: 45%;
 }
 .contactinfo a{
     padding: 10px;
@@ -262,11 +265,13 @@ header nav ul li a:hover{
     background-position: bottom;
     margin: 0 .2rem .1rem;
     display: inline-block;
+    transition: .7s;
 }
 
  .contactinfo a:hover{
     background-size: 100% 88%;
-    border: 1px solid;
+    
+    /* border: 1px solid; */
     background-color: var(--secondary-color);
     padding: 10px;
     color: var(--tertiary-color);
@@ -352,7 +357,7 @@ header nav ul li a{
 
 #contact-me{
     /* margin-top:80 to adjust when adding 5th project */
-    margin-top: 39%;
+    margin-top: 140%;
     margin-left: 8%;
 }
 }
