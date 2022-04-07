@@ -72,7 +72,7 @@ header nav ul li a {
     margin-top: 10px;
     padding: 15px;
     font-weight: lighter;
-    font-size: 1.90vw;
+    font-size: 1.60vw;
     transition: .5s;
     
 }
@@ -88,12 +88,15 @@ header nav ul li a:hover{
 .subheader{
     border-top: 3px solid var(--secondary-color);
     border-bottom: 3px solid var(--secondary-color);
-    padding: 40px 50px 100px 0;
+    padding: 60px 50px 100px 0;
     display: flex;
     flex-wrap: wrap;
     background-image: url(../assets/Images/space1.jpeg);
+    background-repeat: no-repeat;
+    background-position: 20% 20%;
     background-size: cover;
-    background-attachment: fixed;
+    position: relative;
+    
     justify-content: end;   
 }
 
@@ -136,8 +139,8 @@ header nav ul li a:hover{
 #about-me img{
     padding: 2%;
    margin-left: 0%;
-   border-right: solid 3px ;
-   -webkit-filter: drop-shadow(5px 5px 5px #222);
+    border: solid 15px var(--tertiary-color);
+   border-radius: 50%;
 }
 
 /* about me styling ends */
@@ -280,7 +283,7 @@ header nav ul li a:hover{
 .contactinfo a{
     padding: 10px;
     text-decoration: none;
-    font-size: 3.0vh;
+    font-size: 2.7vh;
     color: var(--primary-color);
     background-size: 100% .2em;
     background-position: bottom;
@@ -324,6 +327,8 @@ header nav ul li a{
     padding-left: 20px;
     width: 100%;
 }
+
+
 #about-me p{
     float: none;
 }
