@@ -31,10 +31,11 @@ header{
     
 }
 header div{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 10px;
-    background-color: var(--tertiary-color);
+    /* background-color: var(--tertiary-color); */
     text-align: left;
+    margin-left: 1.7%;
     
 }
 
@@ -43,7 +44,7 @@ header h1 {
     font-size: bold;
     margin: auto;
     font-size: 6.00vh;
-    color: var(--primary-color);
+    color: var(--tertiary-color);
    
 }
 
@@ -180,8 +181,12 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: start;
     padding-bottom: 50px;
+    margin-left: 3%;
 }
-
+.projects-section > article {
+    box-shadow: 10px 10px #888888;
+    margin: 2%;
+}
 .projects{
     /* flex-basis: calc(50% -1em); */
     font-family: 'Bebas Neue', cursive;
@@ -359,6 +364,12 @@ header{
     border-bottom: 1px solid ;
     
 }
+
+.projects-section > article {
+    box-shadow: 10px 10px #888888;
+    margin: 3.5%;
+}
+
 .section{
     
     padding: 15px  5px;
