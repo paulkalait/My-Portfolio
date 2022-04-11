@@ -24,10 +24,12 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    position: -webkit-sticky;
+    position: sticky;
+   
     top:0;
     z-index: 1;
-    border-bottom: solid 2px var(--tertiary-color);
+    border-bottom: solid 3px var(--primary-color);
     
 }
 header div{
@@ -85,7 +87,7 @@ header nav ul li a:hover{
 }
 
 /* Header styling ends */
-
+/* 
 .subheader{
     border-top: 3px solid var(--secondary-color);
     border-bottom: 3px solid var(--secondary-color);
@@ -99,9 +101,9 @@ header nav ul li a:hover{
     position: relative;
     
     justify-content: end;   
-}
+} */
 
-.subheader div{
+/* .subheader div{
     font-family: 'Bebas Neue', cursive;
     padding: 15px 12px;
     border: 1px solid var(--primary-color);
@@ -110,7 +112,7 @@ header nav ul li a:hover{
     position: relative;
     top: 75px;
     right: 30px;
-}
+} */
 
 .subheader h2{
      font-size: 2.6vh;
