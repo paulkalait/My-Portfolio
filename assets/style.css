@@ -123,6 +123,7 @@ header nav ul li a:hover{
 #about-me{
     display: flex;
     align-items: center;
+    margin-top: 2%;
   
 }
 #about-me p{
@@ -282,7 +283,7 @@ header nav ul li a:hover{
 
 
 #contact-me{
-    margin-top: 25%;
+    margin-top: 28%;
     margin-left: 5%;
 }
 
@@ -380,8 +381,7 @@ header{
    display: flex;
    justify-content:space-evenly;
    flex-direction: column;
-  
-    margin left: 30%
+    margin-left: 30%;
 }
 .section h1{
     flex: 1 100%;
