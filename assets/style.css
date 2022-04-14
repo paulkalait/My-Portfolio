@@ -187,103 +187,103 @@ header nav ul li a:hover{
     margin-left: 3%;
 }
 .projects-section > article {
-    box-shadow: 10px 10px #888888;
+    box-shadow: 9px 9px 10px;
     margin: 2%;
+}
+.projects-section > img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .projects{
     /* flex-basis: calc(50% -1em); */
     font-family: 'Bebas Neue', cursive;
     border: solid 4px;
     display: block;
-    margin: .5em;
+    margin: .10rem;
     background-size: 100%;
     align-items: space-evenly;
-    padding: 0 0 20px 0;
+    padding: 0 0 .5px 0;
     transition: all .5s;
     font-size: 1em;
-    border: 4px solid var(--primary-color);
+    
+        border-width: 6px;
+        border-style: solid;
+      border-image: linear-gradient(to right, darkgrey, black) 1;
+      
     
 }
-/* ask about this  */
-.project-name{
-    color: var(--primary-color);
-    text-decoration: none;
-    margin-left: 2%;
-    align-items: center;
-    font-size: 2.00vh;
-    border: 3px solid var(--primary-color);
-    background-color: var(--tertiary-color);
-    padding: 10px 10px;
-    display: inline;
+article h1 {
+     position: absolute;
+    top: 0%;
+    left: 0%;
+    color: var(--tertiary-color);
+    width: 100%;
+    background: linear-gradient(90deg, rgba(73,80,87,1) 0%, rgba(108,117,125,1) 0%, rgba(65,74,81,1) 0%, rgba(51,59,66,1) 12%, rgba(51,59,66,1) 14%, rgba(62,70,78,1) 25%, rgba(64,72,80,1) 27%, rgba(85,92,100,1) 47%, rgba(105,112,119,1) 72%, rgba(114,121,128,1) 99%, rgba(115,122,129,1) 100%, rgba(110,117,124,1) 100%, rgba(193,199,205,1) 100%, rgba(206,212,218,1) 100%, rgba(128,136,144,1) 100%, rgba(135,143,151,1) 100%);
+    text-align: center;
+}
+.project-text {
+    width: 100%;
 }
 
 #project-one{
-    background-image: url(https://github.com/paulkalait/film-adviser/blob/feature/index2/assets/images/Home3.png?raw=true);
-    /* background-size: contain, cover; */
     opacity: .5;
 }
 #project-one:hover{
-    background-image: url(https://github.com/paulkalait/film-adviser/blob/feature/index2/assets/images/Home3.png?raw=true);
     opacity: 1;
-    
 }
 #coderefactor{
-    background-image: url(../assets/Images/code-refactoring-project.png);
+    
     opacity: .5;
     
 }
 #coderefactor:hover{
-    background-image: url(../assets/Images/code-refactoring-project.png);
+    
     opacity: 1;
 }
 #placeholder{
-    background-image: url(https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png);
+   
     opacity: .5;
 }
 #placeholder:hover{
-    background-image: url(https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673.png);
+    
     opacity: 1;
 }
 .projects:first-child{
-    
-    min-height: 350px;
+    width: 250px;
+    height: 400px;
     flex-basis: 100%;
 }
 
 .projects:nth-child(2){
-    
-    min-height: 50%;
+    width: 350px;
+    height: 350px;
+    /* min-height: 50%;
     flex-basis: 100%;
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--primary-color); */
 }
 
 .projects:nth-child(3){
-   
-    min-height: 60%;
+  width: 350px;
+   height: 350px;
+    /* min-height: 60%;
     flex-basis: 50%;
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--primary-color); */
 }
 
 .projects:nth-child(4){
-   
-    min-height: 60%;
+   height: 350px;
+   width: 350px;
+    /* min-height: 60%;
     flex-basis: 50%;
-    border: 3px solid var(--primary-color);
+    border: 3px solid var(--primary-color); */
 }
-/* 
-.contact .contactinfo{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    color: violet;
-} */
+
+
 
 
 #contact-me{
-    margin-top: 28%;
+    margin-top: 20%;
     margin-left: 5%;
 }
 
@@ -307,7 +307,7 @@ header nav ul li a:hover{
     color: var(--tertiary-color);
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1100px) {
 header{
     padding-bottom: 0;
     justify-content: center;
@@ -328,22 +328,19 @@ header nav ul li a{
     padding: 11px;
     padding-bottom: 10px;
 }
-.subheader{
-    width: 100%;
-}
-.subheader div h2{
-    padding-left: 20px;
-    width: 100%;
+.contact-me{
+    margin-top: 24%;
 }
 
 
+/* / */
 #about-me p{
     float: none;
 }
 }
 
     
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
 header{
     position: -webkit-sticky;
     position: sticky;
@@ -367,10 +364,39 @@ header{
     border-bottom: 1px solid ;
     
 }
+.projects-section{
+    margin-right: auto;
+   
+}
 
 .projects-section > article {
-    box-shadow: 10px 10px #888888;
-    margin: 3.5%;
+    box-shadow: 9px 9px 10px;
+    margin: 4.5%;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   margin-right: 10%;
+ 
+}
+article div {
+    display: none;
+}
+.projects:first-child{
+    width: 300px;
+    height: 275px;
+  
+}
+.projects:nth-child(2){
+    width: 300px;
+    height: 275px;
+}
+.projects:nth-child(3){
+    width: 300px;
+    height: 275px;
+}
+.projects:nth-child(4){
+    width: 300px;
+    height: 200px;
 }
 
 .section{
@@ -398,11 +424,6 @@ header{
     padding-top: 20px;
 }
 
-#project-name{
-    min-height: 50%;
-    background-repeat: no-repeat;
-   
-}
 #placeholder{
     min-height: 30%;
     min-width: 95%;
@@ -410,7 +431,7 @@ header{
 
 #contact-me{
     /* margin-top:80 to adjust when adding 5th project */
-    margin-top: 140%;
+    margin-top: 100%;
     margin-left: 8%;
 }
 }
