@@ -89,35 +89,6 @@ header nav ul li a:hover{
     /* border-bottom: 3px solid var(--tertiary-color); */
 }
 
-/* Header styling ends */
-/* 
-.subheader{
-    border-top: 3px solid var(--secondary-color);
-    border-bottom: 3px solid var(--secondary-color);
-    padding: 60px 50px 100px 0;
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url(../assets/Images/space1.jpeg);
-    background-repeat: no-repeat;
-    background-position: 20% 20%;
-    background-size: cover;
-    position: relative;
-    
-    justify-content: end;   
-} */
-
-/* .subheader div{
-    font-family: 'Bebas Neue', cursive;
-    padding: 15px 12px;
-    border: 1px solid var(--primary-color);
-    display: block;
-    background-color: var(--tertiary-color);
-    position: relative;
-    top: 75px;
-    right: 30px;
-} */
-
-
 /* About me Section */
 
 #about-me{
@@ -186,9 +157,15 @@ header nav ul li a:hover{
     margin-left: 3%;
 }
 .projects-section > article {
-    box-shadow: 9px 9px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 9px 20px;
     margin: 2%;
 }
+.projects-section > article:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 2%;
+}
+
+
 .projects-section > img{
     position: absolute;
     top: 0px;
@@ -205,9 +182,8 @@ header nav ul li a:hover{
     padding: 0 0 .5px 0;
     transition: all .5s;
     font-size: 1em;
-    
-        border-width: 6px;
-        border-style: solid;
+     border-width: 3px;
+     border-style: solid;
       border-image: linear-gradient(to right, darkgrey, black) 1;
       
     
@@ -375,14 +351,21 @@ header{
 }
 
 .projects-section > article {
-    box-shadow: 9px 9px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 9px 20px;
     margin: 4.5%;
    justify-content: center;
    align-items: center;
    align-content: center;
    margin-right: 10%;
- 
+
 }
+
+.projects-section > article:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 2%;
+}
+
+
 article div {
     display: none;
 }
