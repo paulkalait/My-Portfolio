@@ -1,8 +1,11 @@
 :root {
     --primary-color: #495057;
     --secondary-color: #6c757D;
-    --tertiary-color: #CED4DA;
+    --tertiary-color: #e9ecef;
 }
+/* original ' */
+/* #ced4da */
+/* f8f9fa */
 * {
     margin: 0;
     padding: 0;
@@ -167,14 +170,14 @@ header nav ul li a:hover{
     flex: 0 0 20%;
     font-size: 4.00vh;
     text-align: end;
-    margin-left: -8px;
     min-width: 30.5%;
-    padding: 112px;
+    padding: 10px;
     border-right: 3px solid var(--primary-color);
     line-height: 1.1;
-    
+     padding-right: 4%;
     
 }
+
 .projects-section{
     display: flex;
     flex-wrap: wrap;
