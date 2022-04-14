@@ -321,7 +321,7 @@ header nav ul li a{
 }
 
     
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
 header{
     position: -webkit-sticky;
     position: sticky;
@@ -373,11 +373,11 @@ article div {
 }
 .projects:nth-child(3){
     width: 300px;
-    height: 275px;
+    height: 10px;
 }
 .projects:nth-child(4){
     width: 300px;
-    height: 200px;
+    height: 10px;
 }
 
 .section{
