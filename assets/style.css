@@ -84,7 +84,7 @@ header nav ul li a {
     
 }
 header nav ul li a:hover{
-    box-shadow: 20px 20px 40px grey;
+    box-shadow: 20px 20px 20px var(--primary-color);
     text-decoration: none;
     color: var(--tertiary-color);
     /* border-bottom: 3px solid var(--tertiary-color); */
