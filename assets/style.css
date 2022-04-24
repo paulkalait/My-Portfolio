@@ -291,6 +291,11 @@ header{
     padding-bottom: 0;
     justify-content: center;
     position: relative;
+    border-bottom: solid 3px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
 }
 header h1{
     width: 100%;
