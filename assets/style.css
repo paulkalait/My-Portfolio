@@ -226,13 +226,13 @@ article h1 {
 }
 .projects:first-child{
     width: 250px;
-    height: 400px;
+    height: 500px;
     flex-basis: 100%;
 }
 
 .projects:nth-child(2){
     width: 350px;
-    height: 350px;
+    height: 500px;
     /* min-height: 50%;
     flex-basis: 100%;
     border: 3px solid var(--primary-color); */
@@ -273,6 +273,7 @@ article h1 {
     margin: 0 .2rem .1rem;
     display: inline-block;
     transition: .7s;
+    
 }
 
  .contactinfo a:hover{
@@ -347,7 +348,7 @@ header{
 }
 .projects-section{
     margin-right: auto;
-   
+    
 }
 
 .projects-section > article {
