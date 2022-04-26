@@ -322,6 +322,7 @@ header{
 header h1{
     width: 100%;
     text-align: center;
+
 }
 header nav ul{
     margin-top: 15px;
@@ -354,6 +355,11 @@ header nav ul li a{
 header{
     position: -webkit-sticky;
     position: sticky;
+    box-shadow: none;
+}
+header h1{
+    box-shadow: 10px 6px 6px #888888;
+    padding: 1rem
 }
 #about-me{
     flex-direction: column;
