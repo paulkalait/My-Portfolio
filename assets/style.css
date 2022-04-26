@@ -110,7 +110,7 @@ header nav ul li a:hover{
 }
 #about-me p{
     font-size: 2.05vh;
-    color: var(--primary-color);
+    color: black;
 }
 
 
@@ -176,7 +176,7 @@ header nav ul li a:hover{
     margin-left: 3%;
 }
 .projects-section > article {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 9px 20px;
+    box-shadow: rgba(0, 0, 0, 0.60) 0px 9px 20px;
     margin: 2%;
 }
 .projects-section > article:hover {
