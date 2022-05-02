@@ -32,7 +32,7 @@ header {
   -webkit-box-shadow: 0 4px 6px -6px #222;
   -moz-box-shadow: 0 4px 6px -6px #222;
   box-shadow: 10px 6px 6px #888888;
-  border-top: solid 1.3rem;
+  border-top: solid .5rem;
   border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
 }
 header div {
@@ -457,7 +457,7 @@ article h1 {
   }
   #about-me img {
     border: none;
-    padding-top: 5%;
+    padding-top: 6%;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
